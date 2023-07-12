@@ -2,21 +2,19 @@
 import time
 
 
-def countdown():
-    i = 10
+def countdown(num):
+    i = num
     while i > 0:
         print(f"{i} SECOND(S)!")
         i -= 1
     print("HAPPY NEW YEAR!")
 
 
-countdown()
-
-print("\n")
+# countdown()
 
 
-def count_with_sleep():
-    i = 10
+def countdown_with_sleep(num):
+    i = num
     while i > 0:
         print(f"{i} SECOND(S)!")
         i -= 1
@@ -24,4 +22,4 @@ def count_with_sleep():
     print("HAPPY NEW YEAR!")
 
 
-count_with_sleep()
+countdown_with_sleep(10)
